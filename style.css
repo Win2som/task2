@@ -1,0 +1,81 @@
+* {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #fafbf8;
+}
+h1 {
+    color: #2c3134;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto;
+}
+.container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    padding: 20px;
+    height: 35rem;
+    background-color: #fff;
+    margin-top: 20px;
+    position: relative;
+}
+.authorName{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+.authorPosition {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 100;
+    opacity: .5;
+}
+.qualification {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    list-style-type: disc;
+}
+.pic {
+    height: 100px ;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+}
+.linkedInImg {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.linkedin > a{
+   font-size: 1.2em;
+   color: #000;
+   
+  
+}
+
+.linkedin > a:hover{
+    color: chartreuse;
+}
+
+.linkedin{
+    position: absolute;
+    bottom: 1.8rem;
+    display: flex;
+    align-items: center;
+}
